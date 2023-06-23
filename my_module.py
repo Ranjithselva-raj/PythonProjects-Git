@@ -4,8 +4,27 @@ data ={'name':'ineuron',
        'greeting':'Greeting from ineuron'}
 
 def get_course():
-    return data['course']
+        """ Returns the 'course' key from the global 'data' dictionary.
+
+        Returns:
+            The value corresponding to the 'course' key in the 'data' dictionary."""
+        return data['course']
+           
+        
 
 def greeting():
-    return data['greeting']
+        
+        """
+    Returns the value of the 'greeting' key in the 'data' dictionary.
+
+    Params:
+    None
+
+    Returns:
+    The value of the 'greeting' key in the 'data' dictionary.
+    """
+        return data['greeting']
+
+
+
 
